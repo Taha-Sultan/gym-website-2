@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    padding: 0;
+    padding-left: 3rem;
+    margin: 0;
+}
+
+.nav-item {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.logo-main {
+    color: white;
+    font-family: Titan One;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.logo {
+    color: white;
+    font-family: Titan One;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0em;
+    margin-right: 10rem;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    gap: 2rem;
+    padding-right: 3rem;
+}
+
+.icons i {
+    color: white;
+    font-size: 20px;
+}
+
+.main-form-div{
+    width: 60%;
+    padding-bottom: 8rem;
+    margin: auto;
+}
+
+.main-txt-div{
+    margin: 60px 0px;
+}
+
+.heading-main{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;    
+}
+
+.txt-main{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;    
+    width: 30%;
+    margin: auto;
+}
+
+.name-forms, .email-forms, .order-forms, .message-forms{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;    
+}
+
+.main-form-div input, textarea{
+    border: 1px solid #C6C6C6;
+    padding: 0.5rem 0rem;
+    border-radius: 10px;
+}
+
+.submit-btn{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;   
+    background-color: black; 
+    width: max-content;
+    padding: 0.4rem 3rem;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.footer {
+    background: white;
+    padding: 3rem 0rem;
+    box-shadow: 0px -2px 18px 0px #0000001A;
+}
+
+.footer-internal {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+    align-items:flex-end;
+}
+
+.footer .brand-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .info-icons {
+    display: flex;
+    gap: 3rem;
+    width: max-content;
+    margin: auto;
+    padding-top: 3rem;
+}
+
+.footer .faq-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    color: black;
+    gap: 1.4rem;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.your-brand-txt {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+
+.your-brand-inc {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+
+.agency-hq {
+    color: black;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.your-txt{
+    border-bottom: 2px solid #ff5733;
+}
+
+
+
+
+
+
+@media only screen and (max-width:980px){
+    .navbar {
+        width: 100% !important;
+    }
+
+    .navbar .logo {
+        display: none;
+    }
+
+    .navbar ul {
+        gap: 1rem;
+        padding-left: 1rem;
+    }
+
+    .navbar .right {
+        padding-right: 1rem;
+    }
+
+    .txt-main{
+        width: 100%;
+    }
+
+    .main-form-div{
+        width: 95%;
+    }
+
+    .footer .name .your-brand-txt{
+        font-size: 18px;
+    }
+
+    .footer .brand-location .bold-text .your-brand-inc{
+        font-size: 15px;
+    }
+
+    .footer .agency-hq{
+        font-size: 15px;
+    }
+
+    .footer .faq-list li{
+        font-size: 13px;
+    }
+
+}
